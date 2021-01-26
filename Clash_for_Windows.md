@@ -1,0 +1,20 @@
+proxies:
+- {"name":"🇹🇼 tw1","server":"103.98.75.71","type":"ss","country":"🇹🇼 TW","port":40093,"password":"x23Z4LGkGDkThZ9Kaz4DURQp","cipher":"aes-256-gcm"}
+- {"name":"🇹🇼 tw2","server":"103.98.75.71","type":"ss","country":"🇹🇼 TW","port":31572,"password":"n8w4StnbVD9dmXYn4Ajt87EA","cipher":"aes-256-gcm"}
+- {"name":"🇹🇼 tw3","server":"2.58.242.46","type":"ss","country":"🇹🇼 TW","port":38033,"password":"xpQwyV4W5FdA6NMANJJx73US","cipher":"aes-256-gcm"}
+- {"name":"🇹🇼 tw4","server":"2.58.242.45","type":"ss","country":"🇹🇼 TW","port":38033,"password":"xpQwyV4W5FdA6NMANJJx73US","cipher":"aes-256-gcm"}
+- {"name":"🇭🇰 hk1","server":"212.102.42.194","type":"ss","country":"🇭🇰 HK","port":40093,"password":"x23Z4LGkGDkThZ9Kaz4DURQp","cipher":"aes-256-gcm"}
+- {"name":"🇭🇰 hk2","server":"84.17.37.158","type":"ss","country":"🇭🇰 HK","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
+- {"name":"🇭🇰 hk3","server":"212.102.42.204","type":"ss","country":"🇭🇰 HK","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
+- {"name":"🇹🇼 tw5","server":"2.58.242.45","type":"ss","country":"🇹🇼 TW","port":39772,"password":"CUndSZnYsPKcu6Kj8THVMBHD","cipher":"aes-256-gcm"}
+- {"name":"🇭🇰 hk4","server":"212.102.42.194","type":"ss","country":"🇭🇰 HK","port":37473,"password":"enctdKyJfSu76VqznKwTt6Ap","cipher":"aes-256-gcm"}
+- {"name":"🇯🇵 jp1","server":"89.187.161.241","type":"ss","country":"🇯🇵 JP","port":31944,"password":"aYNeKDMzYQYw4KbUbJA8Wszq","cipher":"aes-256-gcm"}
+- {name: 高速1🥰, server: a1.ap.fastqvpn.com, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速2😋, server: a2.ap.fastqvpn.com, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速3🤩, server: a3.ap.fastqvpn.com, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速4🤪, server: a4.ap.fastqvpn.com, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速5😴, server: a1.er3.xyz, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速6🤑, server: ap1-ge.er3.xyz, port: "29984", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速7🤡, server: ap1-ca.er3.xyz, port: "29983", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速8, server: ap1-au.er3.xyz, port: "29982", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速9😎, server: a1.er3.xyz, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
