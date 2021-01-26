@@ -5,7 +5,7 @@
 | No   | 文件名                   | 说明                                     |
 | ---- | -------------------------- | ---------------------------------------- |
 | 1    | Unlockwyy.txt       | 解锁网易云节点 |
-| 2    | wyy.conf      | 小火箭解锁网易云配置文件           |
+| 2    | wyy.conf      | Shadowrocket（小火箭）解锁网易云配置文件           |
 | 3    | Quantumult_X.md      | Quantumult X 直接订阅           |
 | 4    | Shadowrocket.md      | Shadowrocket 直接订阅           |
 | 5    | Clash_for_Windows.md      | Clash for Windows 直接订阅           |
