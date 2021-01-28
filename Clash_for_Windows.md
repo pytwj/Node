@@ -18,7 +18,3 @@ proxies:
 - {name: 高速7🤡, server: ap1-ca.er3.xyz, port: "29983", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
 - {name: 高速8, server: ap1-au.er3.xyz, port: "29982", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
 - {name: 高速9😎, server: a1.er3.xyz, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
-- {name: 🇭🇰 【vip1】新加坡1|香港中转|电信优化, server: 15.sufeiyun.cyou, port: 17784, type: vmess, uuid: 1699aa33-a575-3932-acc8-c498831dfd6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-- {name: 🇭🇰 【vip1】台湾7-香港中转-原生ip-Netflix-电信优化, server: 48.sufeiyun.cyou, port: 17816, type: vmess, uuid: 1699aa33-a575-3932-acc8-c498831dfd6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-- {name: 🇨🇳 【vip1】台湾4| 广州移动1000M中转 | 三网优化 | 原生ip | 流媒体解锁, server: 34.sufeiyun.cyou, port: 17803, type: vmess, uuid: 1699aa33-a575-3932-acc8-c498831dfd6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-- {name: 🇭🇰 【vip1】香港03| 广州移动1000m| 三网优化, server: 47.sufeiyun.cyou, port: 17815, type: vmess, uuid: 1699aa33-a575-3932-acc8-c498831dfd6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
