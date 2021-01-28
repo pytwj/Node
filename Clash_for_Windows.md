@@ -142,7 +142,6 @@ proxy-groups:
       - 🇭🇰 【vip1】台湾7-香港中转-原生ip-Netflix-电信优化
       - 🇨🇳 【vip1】台湾4| 广州移动1000M中转 | 三网优化 | 原生ip | 流媒体解锁
       - 🇭🇰 【vip1】香港03| 广州移动1000m| 三网优化
-      # - vmess1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
