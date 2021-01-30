@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+- {name: 失效请联系, server: shlt02.kulime.space, port: 11151, type: vmess, uuid: 59b4ac01-69a9-38d9-8b90-4da134799b6f, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
 - {"name":"🇹🇼 tw1","server":"103.98.75.71","type":"ss","country":"🇹🇼 TW","port":40093,"password":"x23Z4LGkGDkThZ9Kaz4DURQp","cipher":"aes-256-gcm"}
 - {"name":"🇹🇼 tw2","server":"103.98.75.71","type":"ss","country":"🇹🇼 TW","port":31572,"password":"n8w4StnbVD9dmXYn4Ajt87EA","cipher":"aes-256-gcm"}
 - {"name":"🇹🇼 tw3","server":"2.58.242.46","type":"ss","country":"🇹🇼 TW","port":38033,"password":"xpQwyV4W5FdA6NMANJJx73US","cipher":"aes-256-gcm"}
@@ -24,6 +25,17 @@ proxies:
 - {name: 高速7🤡, server: ap1-ca.er3.xyz, port: "29983", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
 - {name: 高速8, server: ap1-au.er3.xyz, port: "29982", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
 - {name: 高速9😎, server: a1.er3.xyz, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速10, server: ap1-sg.er3.xyz, port: "29988", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速11, server: ap1-sg.er3.xyz, port: "29987", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速12, server: ap1-sg.er3.xyz, port: "29986", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速13, server: ap1-sg.er3.xyz, port: "29985", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速14, server: ap1-sg.er3.xyz, port: "29982", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速15, server: ap1-sg.er3.xyz, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速16, server: ap1-us.er3.xyz, port: "29983", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速17, server: ap1-au.er3.xyz, port: "29985", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速18, server: ap1-ca.er3.xyz, port: "29985", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 高速19, server: ap1-ca.er3.xyz, port: "29980", type: http, username: "404641112670601216", password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true, skip-cert-verify: true}
+- {name: 🇪🇸 一键连│VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
 - {name: 🇫🇷 法国巴黎1-香港中转-电信优化, server: 17.sufeiyun.cyou, port: 17786, type: vmess, uuid: 30ebb148-1fd9-3422-9b2e-7a1f19618762, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
 - {name: 🇭🇰 印度孟买1-香港中转-电信优化, server: 28.sufeiyun.cyou, port: 17797, type: vmess, uuid: 30ebb148-1fd9-3422-9b2e-7a1f19618762, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
 - {name: 🇩🇪 德国法兰克福1-香港中转-电信优化, server: 31.sufeiyun.cyou, port: 17800, type: vmess, uuid: 30ebb148-1fd9-3422-9b2e-7a1f19618762, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
@@ -35,6 +47,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -54,6 +67,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
@@ -64,6 +88,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -83,6 +108,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
@@ -94,6 +130,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -113,6 +150,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
@@ -123,6 +171,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -142,6 +191,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
@@ -152,6 +212,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -171,6 +232,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
@@ -181,6 +253,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -200,6 +273,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
@@ -211,6 +295,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -230,6 +315,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
@@ -257,6 +353,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 失效请联系
       - "🇹🇼 tw1"
       - "🇹🇼 tw2"
       - "🇹🇼 tw3"
@@ -276,6 +373,17 @@ proxy-groups:
       - 高速7🤡
       - 高速8
       - 高速9😎
+      - 高速10
+      - 高速11
+      - 高速12
+      - 高速13
+      - 高速14
+      - 高速15
+      - 高速16
+      - 高速17
+      - 高速18
+      - 高速19
+      - 🇪🇸 一键连│VMESS2
       - 🇫🇷 法国巴黎1-香港中转-电信优化
       - 🇭🇰 印度孟买1-香港中转-电信优化
       - 🇩🇪 德国法兰克福1-香港中转-电信优化
