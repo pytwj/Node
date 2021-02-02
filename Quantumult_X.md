@@ -1,6 +1,7 @@
-vmess=awsglobalaccelerator.com:11000, method=chacha20-poly1305, password=4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, obfs=ws, obfs-uri=/idsoa9, obfs-host=microsoft.com, tag= 免费提供
-vmess=awsglobalaccelerator.com:12000, method=chacha20-poly1305, password=4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, obfs=ws, obfs-uri=/idsoa9, obfs-host=microsoft.com, tag= 剩余流量无限
-vmess=awsglobalaccelerator.com:13000, method=chacha20-poly1305, password=4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, obfs=ws, obfs-uri=/idsoa9, obfs-host=microsoft.com, tag= 到期时间看我心情
+vmess=shlt02.kulime.space:11151, method=chacha20-ietf-poly1305, password=59b4ac01-69a9-38d9-8b90-4da134799b6f, obfs=ws, obfs-host=www.bing.com, obfs-uri=/v2ray, fast-open=false, udp-relay=false, tag=失效请联系
+vmess=webchat.ytlxsh.cn:11443, method=chacha20-ietf-poly1305, password=2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, obfs=wss, obfs-host=node.er3.xyz, obfs-uri=/ray, tls-verification=true, fast-open=false, udp-relay=false, tag=🇪🇸 一键连│VMESS2
+shadowsocks=dg-hk-node01.discovpn.app:50025, method=aes-256-cfb, password=abK09D1FnV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=134:GMy16PENTt, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=香港2
+shadowsocks=dg-hk-node02.discovpn.app:50050, method=aes-256-cfb, password=e5opjuLDEQ, ssr-protocol=auth_aes128_md5, ssr-protocol-param=134:GMy16PENTt, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=香港3
 http=a1.ap.fastqvpn.com:29980, username=404641112670601216, password=2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=一键连1
 http=a2.ap.fastqvpn.com:29980, username=404641112670601216, password=2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=一键连2
 http=a3.ap.fastqvpn.com:29980, username=404641112670601216, password=2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=一键连3
