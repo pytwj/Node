@@ -10,6 +10,7 @@
 | 4    | Shadowrocket.md      | Shadowrocket 直接订阅 https://raw.githubusercontent.com/pytwj/Node/main/Shadowrocket.md           |
 | 5    | Clash_for_Windows.yml      | Clash for Windows v0.11.2以下版本订阅 https://raw.githubusercontent.com/pytwj/Node/main/Clash_for_Windows.yml           |
 | 6    | Clash_for_Windows_2.yml      | Clash for Windows v0.11.2及以上版本订阅 https://raw.githubusercontent.com/pytwj/Node/main/Clash_for_Windows_2.yml           |
+| 7    | Disco.md      | 从Disco提取出来的节点 代理软件订阅 https://raw.githubusercontent.com/pytwj/Node/main/Disco.md           |
 
 
  wyy.conf使用说明：
