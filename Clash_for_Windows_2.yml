@@ -10,25 +10,24 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-  - {"name":"可用流量:803.00GB 有效期:2121-01-16","type":"ssr","server":"us04.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"P加加 - 最新官网:pjj.one","type":"ssr","server":"sk01.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"P加加 - TG客服群:https://t.me/pjjone","type":"ssr","server":"sk02.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"韩国03","type":"ssr","server":"sk03.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"韩国04","type":"ssr","server":"sk04.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"美国01","type":"ssr","server":"us01.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"美国02","type":"ssr","server":"us02.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"美国03","type":"ssr","server":"us03.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"日本01","type":"ssr","server":"jp01.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"日本02","type":"ssr","server":"jp02.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"日本03","type":"ssr","server":"jp03.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"新加坡01","type":"ssr","server":"sg01.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"新加坡02","type":"ssr","server":"sg02.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"新加坡03","type":"ssr","server":"sg03.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"新加坡04","type":"ssr","server":"sg04.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"台湾01","type":"ssr","server":"tw01.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"台湾02","type":"ssr","server":"tw02.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"台湾03","type":"ssr","server":"tw03.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
-  - {"name":"台湾04","type":"ssr","server":"tw04.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41411592:9809c7ad-55a1-481f-93d9-adb47a3087e1","obfs":"plain","obfs-param":"","udp":true}
+  - {name: 🏳️‍🌈 流量靠刷邀请获取, server: awsglobalaccelerator.com, port: 11000, type: vmess, uuid: 4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-path: /idsoa9, ws-headers: {Host: microsoft.com}}
+  - {name: 注册续流量链接https://pjj.one/share?userid=WWHEJ3, server: awsglobalaccelerator.com, port: 11000, type: vmess, uuid: 4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-path: /idsoa9, ws-headers: {Host: microsoft.com}}
+  - {name: 🇰🇷 韩国03, server: sk03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇰🇷 韩国04, server: sk04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇺🇲 美国01, server: us01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇺🇲 美国02, server: us02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇺🇲 美国03, server: us03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇯🇵 日本01, server: jp01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇯🇵 日本02, server: jp02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇯🇵 日本03, server: jp03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇸🇬 新加坡01, server: sg01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇸🇬 新加坡02, server: sg02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇸🇬 新加坡03, server: sg03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇸🇬 新加坡04, server: sg04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇨🇳 台湾01, server: tw01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇨🇳 台湾02, server: tw02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇨🇳 台湾03, server: tw03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 🇨🇳 台湾04, server: tw04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
 
 proxy-groups:
   -
@@ -36,9 +35,6 @@ proxy-groups:
     type: select
     proxies:
       - Auto
-      - '可用流量:803.00GB 有效期:2121-01-16'
-      - 'P加加 - 最新官网:pjj.one'
-      - 'P加加 - TG客服群:https://t.me/pjjone'
       - '韩国03'
       - '韩国04'
       - '美国01'
@@ -77,9 +73,6 @@ proxy-groups:
     type: select
     proxies:
       - Auto
-      - '可用流量:803.00GB 有效期:2121-01-16'
-      - 'P加加 - 最新官网:pjj.one'
-      - 'P加加 - TG客服群:https://t.me/pjjone'
       - '韩国03'
       - '韩国04'
       - '美国01'
@@ -101,9 +94,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀直接连接
-      - '可用流量:803.00GB 有效期:2121-01-16'
-      - 'P加加 - 最新官网:pjj.one'
-      - 'P加加 - TG客服群:https://t.me/pjjone'
       - '韩国03'
       - '韩国04'
       - '美国01'
@@ -140,9 +130,6 @@ proxy-groups:
     name: Auto
     type: url-test
     proxies:
-      - '可用流量:803.00GB 有效期:2121-01-16'
-      - 'P加加 - 最新官网:pjj.one'
-      - 'P加加 - TG客服群:https://t.me/pjjone'
       - '韩国03'
       - '韩国04'
       - '美国01'
