@@ -1,5 +1,11 @@
-vmess=awsglobalaccelerator.com:11000, method=chacha20-poly1305, password=4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, obfs=ws, obfs-uri=/idsoa9, obfs-host=microsoft.com, tag=流量靠刷邀请获取
-vmess=awsglobalaccelerator.com:11000, method=chacha20-poly1305, password=4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, obfs=ws, obfs-uri=/idsoa9, obfs-host=microsoft.com, tag=注册续流量链接https://pjj.one/share?userid=WWHEJ3
+http=a1.ap.fastqvpn.com:29980, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=true, fast-open=false, udp-relay=false, tag=注册刷流量https://pjj.one/share?userid=WE8796
+http=a2.ap.fastqvpn.com:29980, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=true, fast-open=false, udp-relay=false, tag=一键连订阅
+http=a3.ap.fastqvpn.com:29980, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=true, fast-open=false, udp-relay=false, tag=不能用请联系
+http=a4.ap.fastqvpn.com:29980, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=香港0️⃣1️⃣
+http=a1.er3.xyz:29980, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=新加坡0️⃣2️⃣
+http=ap1-ge.er3.xyz:29984, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=德国(法兰克福)0️⃣3️⃣
+http=ap1-ca.er3.xyz:29983, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=加拿大(多伦多)0️⃣4️⃣
+http=ap1-au.er3.xyz:29982, username=375653773269270528, password=5999e00f-d602-4c36-acb8-41ae258e049b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=澳大利亚(悉尼)0️⃣5️⃣
 shadowsocks=sk03.pjj.life:12334, method=aes-128-cfb, password=pjj.one, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs=plain, obfs-host=, tag=韩国03
 shadowsocks=sk04.pjj.life:12334, method=aes-128-cfb, password=pjj.one, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs=plain, obfs-host=, tag=韩国04
 shadowsocks=us01.pjj.life:12334, method=aes-128-cfb, password=pjj.one, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs=plain, obfs-host=, tag=美国01
