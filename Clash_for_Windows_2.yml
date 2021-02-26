@@ -10,24 +10,19 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-  - {name: 🏳️‍🌈 流量靠刷邀请获取, server: awsglobalaccelerator.com, port: 11000, type: vmess, uuid: 4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-path: /idsoa9, ws-headers: {Host: microsoft.com}}
-  - {name: 注册续流量链接https://pjj.one/share?userid=WWHEJ3, server: awsglobalaccelerator.com, port: 11000, type: vmess, uuid: 4a89275e-e5bb-3f2e-b6c5-1df193d8bef8, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-path: /idsoa9, ws-headers: {Host: microsoft.com}}
-  - {name: 🇰🇷 韩国03, server: sk03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇰🇷 韩国04, server: sk04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇺🇲 美国01, server: us01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇺🇲 美国02, server: us02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇺🇲 美国03, server: us03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇯🇵 日本01, server: jp01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇯🇵 日本02, server: jp02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇯🇵 日本03, server: jp03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇸🇬 新加坡01, server: sg01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇸🇬 新加坡02, server: sg02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇸🇬 新加坡03, server: sg03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇸🇬 新加坡04, server: sg04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇨🇳 台湾01, server: tw01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇨🇳 台湾02, server: tw02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇨🇳 台湾03, server: tw03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
-  - {name: 🇨🇳 台湾04, server: tw04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41508665:b59b9eaa-1581-452b-bf24-801b1942fcf7, obfs-param: ""}
+  - {name: 一键连订阅, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 失效请联系, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 不要看测速看使用效果, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡金沙湾节点, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇲 Clubhouse专用节点, server: Clubhouse.site, port: 29980, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港铜锣湾节点, server: a1.er3.xyz, port: 29980, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡新达城节点, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇦🇺 澳大利亚悉尼节点, server: ap1-au.er3.xyz, port: 29982, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大多伦多节点, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇩🇪 德国柏林节点, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇬🇧 英国牛津节点, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇲 美国曼哈顿节点, server: ap1-us.er3.xyz, port: 29988, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本大阪节点, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 405092066540912640, password: de1f43a6-b379-4d74-84bf-135663d5b177, tls: true, skip-cert-verify: false}
 
 proxy-groups:
   -
@@ -35,22 +30,19 @@ proxy-groups:
     type: select
     proxies:
       - Auto
-      - '🇰🇷 韩国03'
-      - '🇰🇷 韩国04'
-      - '🇺🇲 美国01'
-      - '🇺🇲 美国02'
-      - '🇺🇲 美国03'
-      - '🇯🇵 日本01'
-      - '🇯🇵 日本02'
-      - '🇯🇵 日本03'
-      - '🇸🇬 新加坡01'
-      - '🇸🇬 新加坡02'
-      - '🇸🇬 新加坡03'
-      - '🇸🇬 新加坡04'
-      - '🇨🇳 台湾01'
-      - '🇨🇳 台湾02'
-      - '🇨🇳 台湾03'
-      - '🇨🇳 台湾04'
+      - '一键连订阅'
+      - '失效请联系'
+      - '不要看测速看使用效果'
+      - '🇸🇬 新加坡金沙湾节点'
+      - '🇺🇲 Clubhouse专用节点'
+      - '🇭🇰 香港铜锣湾节点'
+      - '🇸🇬 新加坡新达城节点'
+      - '🇦🇺 澳大利亚悉尼节点'
+      - '🇨🇦 加拿大多伦多节点'
+      - '🇩🇪 德国柏林节点'
+      - '🇬🇧 英国牛津节点'
+      - '🇺🇲 美国曼哈顿节点'
+      - '🇯🇵 日本大阪节点'
       - 🚀直接连接
   -
     name: ⚓️其他流量
@@ -73,43 +65,37 @@ proxy-groups:
     type: select
     proxies:
       - Auto
-      - '🇰🇷 韩国03'
-      - '🇰🇷 韩国04'
-      - '🇺🇲 美国01'
-      - '🇺🇲 美国02'
-      - '🇺🇲 美国03'
-      - '🇯🇵 日本01'
-      - '🇯🇵 日本02'
-      - '🇯🇵 日本03'
-      - '🇸🇬 新加坡01'
-      - '🇸🇬 新加坡02'
-      - '🇸🇬 新加坡03'
-      - '🇸🇬 新加坡04'
-      - '🇨🇳 台湾01'
-      - '🇨🇳 台湾02'
-      - '🇨🇳 台湾03'
-      - '🇨🇳 台湾04'
+      - '一键连订阅'
+      - '失效请联系'
+      - '不要看测速看使用效果'
+      - '🇸🇬 新加坡金沙湾节点'
+      - '🇺🇲 Clubhouse专用节点'
+      - '🇭🇰 香港铜锣湾节点'
+      - '🇸🇬 新加坡新达城节点'
+      - '🇦🇺 澳大利亚悉尼节点'
+      - '🇨🇦 加拿大多伦多节点'
+      - '🇩🇪 德国柏林节点'
+      - '🇬🇧 英国牛津节点'
+      - '🇺🇲 美国曼哈顿节点'
+      - '🇯🇵 日本大阪节点'
   -
     name: 🎬哔哩哔哩
     type: select
     proxies:
       - 🚀直接连接
-      - '🇰🇷 韩国03'
-      - '🇰🇷 韩国04'
-      - '🇺🇲 美国01'
-      - '🇺🇲 美国02'
-      - '🇺🇲 美国03'
-      - '🇯🇵 日本01'
-      - '🇯🇵 日本02'
-      - '🇯🇵 日本03'
-      - '🇸🇬 新加坡01'
-      - '🇸🇬 新加坡02'
-      - '🇸🇬 新加坡03'
-      - '🇸🇬 新加坡04'
-      - '🇨🇳 台湾01'
-      - '🇨🇳 台湾02'
-      - '🇨🇳 台湾03'
-      - '🇨🇳 台湾04'
+      - '一键连订阅'
+      - '失效请联系'
+      - '不要看测速看使用效果'
+      - '🇸🇬 新加坡金沙湾节点'
+      - '🇺🇲 Clubhouse专用节点'
+      - '🇭🇰 香港铜锣湾节点'
+      - '🇸🇬 新加坡新达城节点'
+      - '🇦🇺 澳大利亚悉尼节点'
+      - '🇨🇦 加拿大多伦多节点'
+      - '🇩🇪 德国柏林节点'
+      - '🇬🇧 英国牛津节点'
+      - '🇺🇲 美国曼哈顿节点'
+      - '🇯🇵 日本大阪节点'
   -
     name: 🎬国外媒体
     type: select
@@ -130,22 +116,19 @@ proxy-groups:
     name: Auto
     type: url-test
     proxies:
-      - '🇰🇷 韩国03'
-      - '🇰🇷 韩国04'
-      - '🇺🇲 美国01'
-      - '🇺🇲 美国02'
-      - '🇺🇲 美国03'
-      - '🇯🇵 日本01'
-      - '🇯🇵 日本02'
-      - '🇯🇵 日本03'
-      - '🇸🇬 新加坡01'
-      - '🇸🇬 新加坡02'
-      - '🇸🇬 新加坡03'
-      - '🇸🇬 新加坡04'
-      - '🇨🇳 台湾01'
-      - '🇨🇳 台湾02'
-      - '🇨🇳 台湾03'
-      - '🇨🇳 台湾04'
+      - '一键连订阅'
+      - '失效请联系'
+      - '不要看测速看使用效果'
+      - '🇸🇬 新加坡金沙湾节点'
+      - '🇺🇲 Clubhouse专用节点'
+      - '🇭🇰 香港铜锣湾节点'
+      - '🇸🇬 新加坡新达城节点'
+      - '🇦🇺 澳大利亚悉尼节点'
+      - '🇨🇦 加拿大多伦多节点'
+      - '🇩🇪 德国柏林节点'
+      - '🇬🇧 英国牛津节点'
+      - '🇺🇲 美国曼哈顿节点'
+      - '🇯🇵 日本大阪节点'
     url: 'http://www.gstatic.com/generate_204'
     interval: '28800'
 
