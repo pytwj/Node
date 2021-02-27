@@ -1,5 +1,3 @@
-shadowsocks=61.222.202.195:810, method=chacha20-ietf-poly1305, password=G!yBwPWH3Vao, fast-open=false, udp-relay=false, tag=🇹🇼+TW_2928+|17.74Mb
-
 shadowsocks=42.157.196.104:10002, method=aes-256-cfb, password=vCmp8ALih6, ssr-protocol=auth_aes128_md5, ssr-protocol-param=439:9J8NuInmXw, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=台湾1-1
 
 shadowsocks=42.157.196.103:10590, method=aes-256-cfb, password=Yk4UdrOyQg, ssr-protocol=auth_aes128_md5, ssr-protocol-param=65227:NntLaF9G4S, obfs=tls1.2_ticket_auth, obfs-host= ajax.microsoft.com, fast-open=false,udp-relay=false, tag=香港03-1 
