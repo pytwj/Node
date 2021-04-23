@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 上次更新于：Tue Feb 09 20:31:50 CST 2021
+## 上次更新于：Fri Apr 23 13:22:50 CST 2021
 #---------------------------------------------------#
 port: 7890
 socks-port: 7891
@@ -10,19 +10,19 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-  - {name: 一键连订阅, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: false}
-  - {name: 失效请联系, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: false}
-  - {name: 不要看测速看使用效果, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡金沙湾节点, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: false}
-  - {name: 🇺🇲 Clubhouse专用节点, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 427772679534149632, password: 35e7ecf5-416f-417b-9014-448b058c9a3d, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港铜锣湾节点, server: a1.er3.xyz, port: 29980, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡新达城节点, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 澳大利亚悉尼节点, server: ap1-au.er3.xyz, port: 29982, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大多伦多节点, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 德国柏林节点, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 英国牛津节点, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
-  - {name: 🇺🇲 美国曼哈顿节点, server: ap1-us.er3.xyz, port: 29988, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 日本大阪节点, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 427772679534149632, password: d75594aa-663b-4402-b01e-3e8dfe5ab47e, tls: true, skip-cert-verify: true}
+  - {name: 一键连订阅, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: false}
+  - {name: 失效请联系, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: false}
+  - {name: 不要看测速看使用效果, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡金沙湾节点, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇲 Clubhouse专用节点, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 香港铜锣湾节点, server: a1.er3.xyz, port: 29980, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡新达城节点, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇦🇺 澳大利亚悉尼节点, server: ap1-au.er3.xyz, port: 29982, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大多伦多节点, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇩🇪 德国柏林节点, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇬🇧 英国牛津节点, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇺🇲 美国曼哈顿节点, server: ap1-us.er3.xyz, port: 29988, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
+  - {name: 🇯🇵 日本大阪节点, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 428220047178072064, password: 62e81312-e7f5-4c0d-9f91-c41d8ede8265, tls: true, skip-cert-verify: true}
 
 proxy-groups:
   -
